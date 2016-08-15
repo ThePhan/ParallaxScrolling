@@ -9,6 +9,10 @@ body, html  {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center centers;
+  -webkit-filter:grayscale(60%);  /* Chrome, Safari, Opera */
+  filter: grayscale(60%);
+
+  /*-webkit-filter: hue-rotate(90deg); sepia*/
 }
 .full_content_1{
   height: 300px;
@@ -28,6 +32,8 @@ body, html  {
   background-image: url('../libs/img/cd-background-2.jpg');
   height: 50%;
   background-attachment: fixed;
+  -webkit-filter: hue-rotate(90deg);
+
 }
 .full_content_2{
   font-size: 20px;
