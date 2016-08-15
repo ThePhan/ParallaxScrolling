@@ -1,0 +1,36 @@
+body, html  {
+  background-color: #E0E0E0;
+  height: 100%;
+}
+.full_content_background_1{
+  background-image: url('../libs/img/cd-background-1.jpg');
+  height: 50%;
+  background-attachment: fixed;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center centers;
+}
+.full_content_1{
+  height: 300px;
+  width: 100%;
+  background-color: #FAFAFA;
+  padding: 10px;
+  font-size: 20px;
+}
+#content_background_1{
+  color: #FFFFFF;
+  font-size: 36px;
+  text-align: center;
+  position: relative;
+  top: 180px;
+}
+.full_content_background_2{
+  background-image: url('../libs/img/cd-background-2.jpg');
+  height: 50%;
+  background-attachment: fixed;
+}
+.full_content_2{
+  font-size: 20px;
+  padding: 10px;
+  height: 300px;
+}
